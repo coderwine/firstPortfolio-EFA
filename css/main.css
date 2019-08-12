@@ -1,0 +1,14 @@
+@import "./about.css";
+@import "./body.css";
+@import "./contacts.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./navbar.css";
+@import "./projects.css";
+@import "./variables.css";
+
+body {
+    margin: 0;
+    padding: 0;
+
+}

@@ -1,0 +1,15 @@
+.jumbotron {
+    background: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,.5), rgba(0,0,0,1)),url(../assets/jumbotron-filler.jpg);
+    position: relative;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    /* color: whitesmoke; */
+    text-shadow: 2px 3px 5px #000;
+    border-bottom: 5px solid slategrey;
+    border-top: 5px solid slategrey;
+
+}

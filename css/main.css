@@ -7,8 +7,9 @@
 @import "./projects.css";
 @import "./variables.css";
 
-body {
-    margin: 0;
-    padding: 0;
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Vesper+Libre:900&display=swap');
 
-}
+/* Body Text: font-family: 'Exo 2', sans-serif;
+Title Text: font-family: 'Vesper Libre', serif; */
+

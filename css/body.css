@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Exo 2', sans-serif;
+    overflow-x: hidden;
+    text-align: center;
+    justify-content: center;
+}

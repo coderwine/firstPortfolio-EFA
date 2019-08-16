@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="./Portfolio/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     
     <title>Portfolio</title>
 </head>
@@ -54,7 +54,7 @@
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Eric Winebrenner</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p class="lead">Developer</p>
         </div>
       </div>
 
@@ -82,28 +82,33 @@
       </div>
 
     <!-- CONTACT -->
+   
     <div id="contact">
         <div class="container">
             <h2 class="text-center text-uppercase">Contact Me</h2>
+            
             <br>
+
             <div class="row">
+                <div id="linkedIn-img"></div>
                 <div class="col-12">
     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/ejwinebrenner@gmail.com" method="post">
         <fieldset id="fs-frm-inputs">
+          <legend><a href="#" target="_blank"><img src="./assets/linkedin.svg"></a><a href="#" target="_blank"><img src="./assets/github-logo.svg"></a></legend>
 
         <div class="form-group">
           <label for="full-name">Full Name</label>
-          <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last Name here" required="">
         </div>
 
         <div class="form-group">
           <label for="email-address">Email Address</label>
-          <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="youremail@domain.tld" required="">
         </div>
          
         <div class="form-group"> 
           <label for="message">Message</label>
-          <textarea  class="form-control" rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+          <textarea  class="form-control" rows="5" name="message" id="message" placeholder="Please let me know what I can do for you..." required=""></textarea>
           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
         </div>
         
@@ -113,12 +118,21 @@
         <button type="submit" class="btn btn-dark">Message Me</button>
     </div>
       </form>
+
       <br>
       <br>
             </div>
             </div>
         </div>
         </div>
+
+        <!-- FOOTER  -->
+        <footer>
+        
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"         title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        
+        <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"         title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      </footer>
 
     <!-- My JS -->
     <script src="Portfolio/js/main.js"></script>

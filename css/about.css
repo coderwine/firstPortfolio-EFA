@@ -1,3 +1,43 @@
 #about {
-    margin: 10px;
+    background-image: 
+        radial-gradient(rgba(255,255,255,0), 
+        rgba(255,255,255,0.25), 
+        rgba(255,255,255,.5),
+        rgba(255,255,255,.75),
+        rgba(255,255,255,1)), 
+        url('../assets/about-me-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 55vh;
+    align-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 1em;
 }
+
+#linkedIn-img {
+    border: 5px solid black;
+    border-radius: 300px;
+    height: 32vh;
+    width: 16vw;
+    float: left;
+    background-image: url('https://media.licdn.com/dms/image/C5103AQGig-1gWbp2iA/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=tiNLzX2bT3RoUBheYp9TSIRAap9hiRipRAjEd5WjO54');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+
+}
+
+.col-sm-4 {
+    margin-left: 4em;
+    text-align: left;
+    padding: .5em;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        rgba(255,255,255,1),rgba(255,255,255,0.8));
+}
+

@@ -1,0 +1,15 @@
+.table {
+    margin-top: 2.5em;
+    padding-left: 2em;
+    color: whitesmoke;
+}
+
+.table-hover tr:hover {
+    background-color: green;
+}
+
+.projectCarousel {
+    display: flex;
+    justify-content: center;
+}
+

@@ -5,7 +5,8 @@
 }
 
 .table-hover tr:hover {
-    background-color: green;
+    background-color: #999;
+    color: black;
 }
 
 .logo {
@@ -15,4 +16,11 @@
     width: 15em;
     border: 1em solid black;
     z-index: 100;
+}
+
+.projectsHeader {
+    height: 6vh;
+    width: 100vw;
+    text-align: center;
+    text-shadow: .25pt .5pt #999;
 }

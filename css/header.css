@@ -10,11 +10,12 @@
     height: 100vh;
     text-align: center;
     background-repeat: no-repeat;
-    margin-bottom: 5em;
+    margin-bottom: .25em;
     background-position: bottom;
     color: whitesmoke;
     text-shadow: 2px 3px 5px #000;
-    border-top: 5px solid slategrey;  
+    border-top: 8px solid #111;  
+    border-bottom: 8px solid #111;  
 }
 
 .jumbotron .container {

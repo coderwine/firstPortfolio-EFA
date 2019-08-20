@@ -15,6 +15,7 @@
     padding-top: 3em;
     padding-bottom: 3em;
     margin-bottom: 1em;
+    border-bottom: 8px solid #111;
 }
 
 #about .row {
@@ -25,8 +26,8 @@
 #linkedIn-img {
     border: 5px solid black;
     border-radius: 300px;
-    height: 32vh;
-    width: 16vw;
+    height: 31vh;
+    width: 15vw;
     float: left;
     background-image: url('https://media.licdn.com/dms/image/C5103AQGig-1gWbp2iA/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=tiNLzX2bT3RoUBheYp9TSIRAap9hiRipRAjEd5WjO54');
     background-repeat: no-repeat;

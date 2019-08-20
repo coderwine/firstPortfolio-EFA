@@ -9,3 +9,16 @@ body {
     justify-content: center;
     background-color: black;
 }
+
+#ew-logo {
+
+    height: 15em;
+    width: 15em;
+    z-index: 100;    
+    background-size: 15em;
+    background-image: url('../assets/EW-Logo-5.jpg');
+    border-radius: 30em;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 35em;
+}

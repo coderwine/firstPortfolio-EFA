@@ -8,8 +8,11 @@
     background-color: green;
 }
 
-.projectCarousel {
-    display: flex;
-    justify-content: center;
+.logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 15em;
+    border: 1em solid black;
+    z-index: 100;
 }
-

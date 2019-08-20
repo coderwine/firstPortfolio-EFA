@@ -8,14 +8,15 @@
 
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     
+    <link rel="icon" type="image/ico" href="assets/EW-Logo-5.jpg">
     <title>Portfolio</title>
 </head>
 
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <a class="navbar-brand" href="#">EW</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +27,7 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,9 +35,9 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#about">About Me</a>
-                <a class="dropdown-item" href="#">Projects</a>
+                <a class="dropdown-item" href="#projects">Projects</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Contact ME</a>
+                <a class="dropdown-item" href="https://ericjwinebrenner.com/" target="_blank">Blog</a>
               </div>
             </li>
             <!-- <li class="nav-item">
@@ -47,6 +48,7 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form> -->
+          
         </div>
       </nav>
 
@@ -111,8 +113,8 @@
 <!-- NEED TO FIND OUT WHY THE HOVER ISN'T WORKING.
 https://getbootstrap.com/docs/4.3/content/tables/ 
 I think I need to narrow down within the CSS -->
-
-      <table class="table table-hover">
+      
+      <table class="table table-hover" id="projects">
         <thead>
           <tr>
             <th scope="col"></th>
@@ -160,7 +162,7 @@ I think I need to narrow down within the CSS -->
               <h3>How Can I Help?</h3>
               <span>I want to thank you for taking the time to look over my page.  Please feel free to shoot me a note on your next project.  I'm always eager to work with a great team and open to learning more!</span>
               <br>
-              <span>Bacon ipsum dolor amet turkey ribeye ground round ham hock tail. Ribeye pork loin tenderloin drumstick biltong burgdoggen t-bone. Ham hock alcatra tongue filet mignon rump. Tail andouille ball tip pancetta. Fatback pork loin ham hock, turducken salami frankfurter hamburger pork belly short ribs pastrami sausage.</span>
+              <span>Bacon ipsum dolor amet turkey ribeye ground round ham hock tail. Ribeye pork loin tenderloin drumstick biltong burgdoggen t-bone. Ham hock alcatra tongue filet mignon rump. Tail andouille ball tip pancetta. Fatback pork loin ham hock, turducken salami frankfurter hamburger pork belly short ribs pastrami sausage.  ~back to <a href="#navbar">top</a>.</span>
             </div>  
 
             <div class="row">
@@ -206,20 +208,21 @@ I think I need to narrow down within the CSS -->
         </div>
         </div>
 
+        <div id="ew-logo"></div>
+
         <!-- FOOTER  -->
         <footer>
-        <ul>All Icons Pulled from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">Flaticon</a> and <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">licensed by CC 3.0 BY</a>
-          <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> </li>
-          <li><a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy" target="_blank">Dave Gandy</a></li>
-          <li><a href="https://www.flaticon.com/authors/uiuxer" title="UIUXER" target="_blank">UIUXER</a></li>
+        <ul>All Icons Pulled from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">Flaticon</a> and licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0</a>
+          <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a>, <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy" target="_blank">Dave Gandy</a>, <a href="https://www.flaticon.com/authors/uiuxer" title="UIUXER" target="_blank">UIUXER</a> </li>
         </ul>
 
         <ul>Photo credit from <a href="https://unsplash.com" target="_blank">Unsplash</a>
-          <li><a href="https://unsplash.com/@daninasplash" target="_blank">Da Nina</a></li>
-          <li><a href="https://unsplash.com/@corinnekutz" target="_blank">Corinne Kutz</a></li>
+          <li><a href="https://unsplash.com/@daninasplash" target="_blank">Da Nina</a>, <a href="https://unsplash.com/@corinnekutz" target="_blank">Corinne Kutz</a></li>
         </ul>
-       
-    
+
+        <ul>
+          <li>Designed by Eric Winebrenner &#169; 2019</li>
+        </ul>  
       </footer>
 
     <!-- My JS -->
